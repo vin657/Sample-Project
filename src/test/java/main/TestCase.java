@@ -11,15 +11,15 @@ public class TestCase {
 	public void testHello() {
 		sm = new SampleProject();
 		
-		assertEquals("Hello World!",sm.printHello());
+		System.out.print("Hello world");
 	}
 	
 	@SuppressWarnings("static-access")
 	@Test
 	public void testAdd() {
 		sm = new SampleProject();
-		int a = 23+45;
-		assertEquals(a,sm.add(23, 45));
+		int a = 3+46;
+		assertEquals(a,sm.add(3, 46));
 	}
 
 }
